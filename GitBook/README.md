@@ -1,8 +1,8 @@
-# Github
+# GitBook
 
 ## 前言
 
-本项目的Github规则由《规则生成器》自动整合与去重。
+本项目的GitBook规则由《规则生成器》自动整合与去重。
 
 分流规则是互联网公共服务的域名和IP地址汇总，所有数据均收集自开源项目，仅为解决引用过多外部资源引起的规则重复问题，不代表我们支持或使用这些服务。
 
@@ -10,14 +10,13 @@
 
 ## 规则统计
 
-总计规则：23 条。
+总计规则：3 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN-KEYWORD | 1 |
-| DOMAIN-SUFFIX | 22 |
+| DOMAIN-SUFFIX | 3 |
 ## 配置说明
 
 实时版：程序定时更新，更新频率高，能尽快同步数据源变化，适合希望尝鲜的人。
@@ -27,12 +26,12 @@
 ### Clash 
 实时版：
 
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Github/Github.yaml
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GitBook/GitBook.yaml
 
 
 稳定版：
 
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Github/Github.yaml
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/GitBook/GitBook.yaml
 
 
 如果稳定版无法访问 ，可能是尚未从实时版的分支合并，建议您先使用实时版，或等待下次稳定版分支合并。
@@ -44,12 +43,11 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clas
 
 ## 数据来源
 
-本项目的Github复写规则的数据来自以下链接，通常已涵盖所有数据来源的复写规则。
+本项目的GitBook复写规则的数据来自以下链接，通常已涵盖所有数据来源的复写规则。
 
-如果你正在使用这些复写规则，建议不要与本项目的Github复写规则混合使用，以免造成规则重复。
+如果你正在使用这些复写规则，建议不要与本项目的GitBook复写规则混合使用，以免造成规则重复。
 
-- https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Github.list
-- https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Github.list
+- https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Gitbook.list
 
 
 感谢以上复写规则作者的辛勤付出（排名不分先后）。
