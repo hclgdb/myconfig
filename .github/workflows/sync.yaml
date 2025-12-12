@@ -71,8 +71,11 @@ jobs:
           # 添加所有变更
           git add .
           
-          # 如果有变更，则提交并推送；如果没有变更，则提示并跳过
-          if ! git diff-ignore-submodules --quiet; then
+          # 修复后的检测逻辑：
+          # --staged 表示检查刚才 git add 进去的内容
+          # --quiet 表示不输出具体内容，只通过退出码告诉我们有没有变动
+          # (如果有变动返回 1，没有变动返回 0)
+          if ! git diff --staged --quiet; then
             git commit -m "Auto sync: Update configs from upstream $(date +'%Y-%m-%d')"
             git push
             echo "Changes pushed successfully."
