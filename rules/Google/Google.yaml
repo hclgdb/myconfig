@@ -8,7 +8,7 @@
 # IP-CIDR: 4
 # IP-CIDR6: 1
 # PROCESS-NAME: 6
-# TOTAL: 708
+# TOTAL: 707
 payload:
   - DOMAIN,voice.telephony.goog
   - DOMAIN-SUFFIX,0emm.com
@@ -39,7 +39,6 @@ payload:
   - DOMAIN-SUFFIX,androidify.com
   - DOMAIN-SUFFIX,androidtv.com
   - DOMAIN-SUFFIX,angulardart.org
-  - DOMAIN-SUFFIX,api.ai
   - DOMAIN-SUFFIX,apigee.com
   - DOMAIN-SUFFIX,app-analytics-services.com
   - DOMAIN-SUFFIX,app-measurement-cn.com

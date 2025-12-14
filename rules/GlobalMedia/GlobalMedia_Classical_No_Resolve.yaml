@@ -2,15 +2,14 @@
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
 # UPDATED: 2025-12-14 02:08:06
-# DOMAIN: 30
+# DOMAIN: 29
 # DOMAIN-KEYWORD: 24
-# DOMAIN-SUFFIX: 1265
+# DOMAIN-SUFFIX: 1254
 # IP-CIDR: 918
 # IP-CIDR6: 6
 # PROCESS-NAME: 3
-# TOTAL: 2246
+# TOTAL: 2234
 payload:
-  - DOMAIN,aistudio.google.com
   - DOMAIN,akmcdnoversea-tw.inter.ptqy.gitv.tv
   - DOMAIN,api.groq.com
   - DOMAIN,api.okzy.tv
@@ -557,7 +556,6 @@ payload:
   - DOMAIN-SUFFIX,golosameriki.com
   - DOMAIN-SUFFIX,gooddaychicago.com
   - DOMAIN-SUFFIX,gorin.jp
-  - DOMAIN-SUFFIX,grazie.ai
   - DOMAIN-SUFFIX,grazie.aws.intellij.net
   - DOMAIN-SUFFIX,haiwaikan.com
   - DOMAIN-SUFFIX,happyon.jp
@@ -674,7 +672,6 @@ payload:
   - DOMAIN-SUFFIX,japronx.net
   - DOMAIN-SUFFIX,japronx.tv
   - DOMAIN-SUFFIX,japronx.vip
-  - DOMAIN-SUFFIX,jetbrains.ai
   - DOMAIN-SUFFIX,joeswall.com
   - DOMAIN-SUFFIX,joinmaidez.com
   - DOMAIN-SUFFIX,joox.com
@@ -726,10 +723,8 @@ payload:
   - DOMAIN-SUFFIX,maxgo.com
   - DOMAIN-SUFFIX,media-amazon.com
   - DOMAIN-SUFFIX,meridian.net
-  - DOMAIN-SUFFIX,meta.ai
   - DOMAIN-SUFFIX,mewatch.sg
   - DOMAIN-SUFFIX,mickey.tv
-  - DOMAIN-SUFFIX,mistral.ai
   - DOMAIN-SUFFIX,mobile-collector.newrelic.com
   - DOMAIN-SUFFIX,moov.hk
   - DOMAIN-SUFFIX,moviesanywhere.com
@@ -873,7 +868,6 @@ payload:
   - DOMAIN-SUFFIX,payhulu.com
   - DOMAIN-SUFFIX,pbs.org
   - DOMAIN-SUFFIX,peacocktv.com
-  - DOMAIN-SUFFIX,perplexity.ai
   - DOMAIN-SUFFIX,persagg.com
   - DOMAIN-SUFFIX,phncdn.com
   - DOMAIN-SUFFIX,phprcdn.com
@@ -1114,7 +1108,6 @@ payload:
   - DOMAIN-SUFFIX,woflthenewsstation.com
   - DOMAIN-SUFFIX,wogx.com
   - DOMAIN-SUFFIX,wwwhuluplus.com
-  - DOMAIN-SUFFIX,x.ai
   - DOMAIN-SUFFIX,yb.uncn.jp
   - DOMAIN-SUFFIX,youboranqs01.com
   - DOMAIN-SUFFIX,z5.app

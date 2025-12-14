@@ -3,10 +3,10 @@
 # REPO: https://github.com/blackmatrix7/ios_rule_script
 # UPDATED: 2025-06-06 09:16:55
 # DOMAIN-KEYWORD: 2
-# DOMAIN-SUFFIX: 544
+# DOMAIN-SUFFIX: 545
 # IP-ASN: 1
 # IP-CIDR: 23
-# TOTAL: 570
+# TOTAL: 571
 payload:
   - DOMAIN-SUFFIX,aboutfacebook.com
   - DOMAIN-SUFFIX,accessfacebookfromschool.com
@@ -474,6 +474,7 @@ payload:
   - DOMAIN-SUFFIX,mcrouter.org
   - DOMAIN-SUFFIX,messenger.com
   - DOMAIN-SUFFIX,messengerdevelopers.com
+  - DOMAIN-SUFFIX,meta.ai
   - DOMAIN-SUFFIX,meta.com
   - DOMAIN-SUFFIX,midentsolutions.com
   - DOMAIN-SUFFIX,mobilefacebook.com
