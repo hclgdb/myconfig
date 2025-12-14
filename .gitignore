@@ -1,0 +1,20 @@
+# 自动更新脚本生成的文件
+scripts/update_log.txt
+scripts/monitor_results.txt
+scripts/suggested_updates_*.ps1
+
+# 临时文件和备份
+rules_temp/
+rules_backup/
+*.backup
+
+# 脚本配置文件（可能包含敏感信息）
+scripts/monitor_config.json
+
+# 日志文件
+*.log
+update_log.txt
+monitor_results.txt
+
+# 临时规则更新文件
+suggested_updates_*.ps1
